@@ -1,5 +1,11 @@
 package vehicles;
 
+/**
+ * 
+ * @author cfgs
+ *
+ */
+
 public class Vehicle {
 	
 	public static final int velocitat_maxima = 120;
@@ -10,7 +16,11 @@ public class Vehicle {
 	private int velocidad_actual;
 	private int marxa_actual;
 	
-	
+	/**
+	 * 
+	 * @param cilindrada
+	 * @param portes
+	 */
 	public Vehicle(int cilindrada, int portes) {
 		super();
 		this.cilindrada = cilindrada;
@@ -19,28 +29,60 @@ public class Vehicle {
 		this.marxa_actual = 0;
 	}
 	
-	
+	/**
+	 * 
+	 * @return
+	 */
 	public int getCilindrada() {
 		return cilindrada;
 	}
+	
+	/**
+	 * 
+	 * @param cilindrada
+	 */
 	public void setCilindrada(int cilindrada) {
 		this.cilindrada = cilindrada;
 	}
+	/**
+	 * 
+	 * @return
+	 */
 	public int getPortes() {
 		return portes;
 	}
+	/**
+	 * 
+	 * @param portes
+	 */
 	public void setPortes(int portes) {
 		this.portes = portes;
 	}
+	/**
+	 * 
+	 * @return
+	 */
 	public int getVelocidad_actual() {
 		return velocidad_actual;
 	}
+	/**
+	 * 
+	 * @param velocidad_actual
+	 */
 	public void setVelocidad_actual(int velocidad_actual) {
 		this.velocidad_actual = velocidad_actual;
 	}
+	/**
+	 * 
+	 * @return
+	 */
 	public int getMarxa_actual() {
 		return marxa_actual;
 	}
+	/**
+	 * 
+	 * @param marxa_actual
+	 */
 	public void setMarxa_actual(int marxa_actual) {
 		this.marxa_actual = marxa_actual;
 	}
